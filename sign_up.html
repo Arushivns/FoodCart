@@ -3,6 +3,10 @@
 <title>
 Sign Up to FoodCart
 </title>
+
+<!--icon of the webpage-->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
 <link rel="stylesheet" href="style.css">
 <!--this is the link to font awesome stylesheet-->
 <link rel="stylesheet" href="font-awesome-4.6.3/font-awesome-4.6.3/css/font-awesome.min.css">
@@ -13,12 +17,34 @@ Sign Up to FoodCart
 
 <!--custom style goes here-->
 <style type="text/css">
+/*background image for this page*/
 body{
 background-image:url("images/veg.jpeg");
 background-size:cover;
 }
+/*already a user paragraph with class aluser*/
+.aluser div{
+color:white;
+font-size:25px;
+text-style:bold;
 
 
+}
+
+.aluser p{
+text-align:center;
+
+}
+.aluser a{text-align:center;
+text-decoration:none;
+font-size:25px;
+}
+
+.aluser a:hover{
+text-decoration:underline;
+transition: text-decoration 2s fade-in;
+
+}
 
 </style>
 
@@ -122,7 +148,9 @@ background-size:cover;
 
 <!--button to send the form data-->
 <button type="submit" class="sign_up">Sign Up</button>
-
+<div class="aluser">
+<p><a href="user_login.html">Already a user? Log-in.</a></p>
+</div>
 <br><br><br><br>
 
 <!--now making hoverable side bars-->
