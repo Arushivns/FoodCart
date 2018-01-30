@@ -1,0 +1,36 @@
+<!doctype>
+
+<html>
+<head>
+<title>JavaScript Test</title>
+
+<script type="text/javascript">
+function select(){
+document.getElementById("ch").firstChild.style.border="3px solid blue";
+
+}
+
+
+
+</script>
+</head>
+
+<body>
+
+<p id="test">
+See me change</p>
+
+<button onclick="check();">Click me</button>
+
+<p id="many">you are <b>not</b> alone;
+<button onclick="check2();">many children</button>
+<p id="one">hey there!</p>
+
+
+
+<button onclick="check1();">one child</button>
+	
+<a href="#" id="ch" onclick="select();"><button>hey there</button></a>
+
+</body>
+</html>

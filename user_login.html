@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<title>
+User Login
+</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+<link rel="stylesheet" href="style.css">
+<!--this is the link to font awesome stylesheet-->
+<link rel="stylesheet" href="font-awesome-4.6.3/font-awesome-4.6.3/css/font-awesome.min.css">
+
+<!--to enable jQuery library-->
+<script src="jquery-3.3.1.min.js"></script>
+
+
+<!--custom style goes here-->
+<style type="text/css">
+
+.user_log h1{
+background-color:rgb(230, 0, 0);
+color:white;
+text-align:center;
+box-sizing:content-box;
+margin-top:0px;
+border-radius:10px;
+
+}
+
+.user_log {
+position:relative;
+left:20%;
+
+width:50%;
+border-color:rgb(230,0,0);
+border-style:ridge;
+border-radius:20px;
+}
+
+.user_log form{
+
+position:relative;
+left:30%;
+clear:both;
+}
+
+.user_log input{
+clear:both;
+width:40%;
+}
+
+.user_log button{
+border-radius:5px;
+background-color:linen;
+color:#ff0000;
+padding:15px;
+padding-left:25px;
+padding-right:25px;
+margin-right:20px;
+margin-bottom:10px;
+}
+
+.user_log button:hover{
+color:white;
+background-color:red;
+transition:color 2s,background-color 1s;
+}
+
+.user_log label{
+margin-right:10px;
+}
+
+</style>
+<!--custom style ends-->
+</head>
+<body>
+<!-- The menu class -->
+<div class="menu" style="z-index:0;">
+<ul>
+
+<li style="border:none;"><img src="images/logo_text.png" width="220px" height="30px"></li>
+<li style="margin-left:80px;border-left:2px dashed white;padding-left:10px;"><a href="#">Our Menu</a></li>
+<li><a href="#">Offers</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Admin Login</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Your Cart <i class="fa fa-cart-plus fa-1x fa-inverse"></i></a></li>
+
+<li class="avatar" style="border:none;"><span style="margin-left:30px;">Welcome Guest</span><img src="images/blank_profile.png" width="50px" height="50px">
+<!--hoverable menu for the guest login-->
+	
+	</li>
+</ul>
+</div>
+
+<!--class menu ends-->
+
+
+<br>
+<br><br>
+<br><br>
+
+<!--other content of the body starts-->
+
+<div class="user_log">
+<h1>User Login</h1>
+<form name="frm">
+<label for="username">Enter Username</label><input type="text" value="Enter Username"><br><br>
+
+<label for="password">Enter Password</label><input type="password" value="Enter Password"><br><br>
+
+
+<button type="submit">Login</button> <b> New User</b> <br>
+<b>Forgot Password?</b><br>
+</form>
+<!--div with class user ends-->
+</div>
+
+</body>
+</html>
